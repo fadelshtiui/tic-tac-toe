@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+.hidden {
+     display: none;
+}
+
+button {
+     font-family: monospace;
+}
+
+#board {
+     width: 320px;
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+}
+
+.box {
+     width: 100px;
+     height: 100px;
+     cursor: pointer;
+     border-color: black;
+     text-align: center;
+}
+
+.letter {
+     font-size: 76px;
+     padding: 10px;
+     font-family: 'Comfortaa', cursive;
+}
+
+#top-left, #top-middle, #top-right, #middle-left, #middle-middle, #middle-right {
+     border-bottom: 5px solid;
+}
+
+#bottom-left, #bottom-middle, #bottom-right, #middle-left, #middle-middle, #middle-right {
+     border-top: 5px solid;
+}
+
+#top-middle, #top-right, #middle-middle, #middle-right, #bottom-middle, #bottom-right {
+     border-left: 5px solid;
+}
+
+#top-left, #top-middle, #middle-left, #middle-middle, #bottom-left, #bottom-middle {
+     border-right: 5px solid;
+}
+
+#rematch, #cocky, #board {
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: 30px;
+}
